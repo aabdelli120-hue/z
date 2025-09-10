@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Home" xml:space="preserve"><value>Accueil</value></data>
+  <data name="PrayerTimes" xml:space="preserve"><value>Horaires de prière</value></data>
+  <data name="Azkar" xml:space="preserve"><value>Adhkar</value></data>
+  <data name="Tasbeeh" xml:space="preserve"><value>Tasbih</value></data>
+  <data name="Settings" xml:space="preserve"><value>Paramètres</value></data>
+  <data name="MorningAzkar" xml:space="preserve"><value>Adhkar du matin</value></data>
+  <data name="EveningAzkar" xml:space="preserve"><value>Adhkar du soir</value></data>
+  <data name="Increment" xml:space="preserve"><value>Incrémenter</value></data>
+  <data name="Reset" xml:space="preserve"><value>Réinitialiser</value></data>
+  <data name="Language" xml:space="preserve"><value>Langue</value></data>
+  <data name="NotificationStyle" xml:space="preserve"><value>Style de notification</value></data>
+  <data name="ResetTasbeeh" xml:space="preserve"><value>Réinitialiser le compteur</value></data>
+  <data name="Welcome" xml:space="preserve"><value>Bienvenue</value></data>
+</root>

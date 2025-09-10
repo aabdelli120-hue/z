@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:resx="clr-namespace:JamiAlgeria.Resources.Strings"
+             xmlns:viewmodels="clr-namespace:JamiAlgeria.ViewModels"
+             x:Class="JamiAlgeria.Views.SettingsPage"
+             Title="{x:Static resx:Strings.Settings}">
+    <ContentPage.BindingContext>
+        <viewmodels:SettingsViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="{x:Static resx:Strings.Language}" />
+        <Picker ItemsSource="{Binding Languages}" SelectedItem="{Binding SelectedLanguage}" />
+        <Label Text="{x:Static resx:Strings.NotificationStyle}" />
+        <Picker ItemsSource="{Binding NotificationStyles}" SelectedItem="{Binding SelectedNotification}" />
+        <Button Text="{x:Static resx:Strings.ResetTasbeeh}" Command="{Binding ResetTasbeehCommand}" />
+    </StackLayout>
+</ContentPage>
